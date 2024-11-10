@@ -34,7 +34,7 @@
         </el-table-column>
       </el-table>
     </div>
-    <!-- 新增/编辑弹框 -->
+    <!-- new popup -->
     <el-dialog width="35%" title="Add New Menu" v-model="showModal">
       <el-form ref="dialogForm" :model="menuForm" label-width="100px" :rules="rules">
         <el-form-item label="Superrior Menu" prop="parentId">

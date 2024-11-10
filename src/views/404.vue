@@ -2,8 +2,8 @@
     <div class="page-404">
         <img src="@/assets/images/404.svg" alt="">
 
-        <p class="btn-home">您访问的页面不存在，请点击
-            <el-button @click="goHome" type="large"> 回首页</el-button>
+        <p class="btn-home">non-exist page
+            <el-button @click="goHome" type="large"> back home</el-button>
         </p>
 
     </div>
